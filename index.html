@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #fbe7f8; /* Light pink background */
+    color: #4a235a; /* Dark violet text */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 3px solid #f8bbd0; /* Light pink border */
+}
+
+h1, h2 {
+    margin-top: 0;
+}
+
+h1 {
+    font-size: 2em;
+    color: #d81b60; /* Dark pink for name */
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #9c27b0; /* Light violet for headings */
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+section {
+    background-color: #fce4ec; /* Very light pink background */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+li strong {
+    display: inline-block;
+    min-width: 120px;
+    font-weight: bold;
+}
+
+/* Responsive Design using Grid */
+@media (min-width: 768px) {
+    body {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+    section {
+        grid-column: span 2;
+    }
+    header {
+        grid-column: span 2;
+    }
+}
+</style>
+  <title>My Resume</title>
+</head>
+<body>
+  <header>
+    <img src="profile pic.jpg" alt="My Profile Picture">
+    <h1>Rechel Fiel Malayan</h1>
+    <p>Camanga Tukuran Zamboanga Del Sur</p>
+    <p>09535548239</p>
+  </header>
+
+  <h2>Career Objective</h2>
+  <p>To gain valuable experience and acquire new skills.</p>
+
+  <section>
+    <h2>Personal Background</h2>
+    <ul>
+      <li><strong>Birth Date:</strong> April 05, 2005</li>
+      <li><strong>Birth Place:</strong> Camanga</li>
+      <li><strong>Address:</strong> Camanga Tukuran Zamboanga Del Sur</li>
+      <li><strong>Father's Name:</strong> Russel D. Malayan</li>
+      <li><strong>Mother's Name:</strong> Meliza F. Malayan</li>
+      <li><strong>Age:</strong> 19</li>
+      <li><strong>Weight:</strong> 50kg</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Educational Background</h2>
+    <ul>
+      <li><strong>Elementary:</strong> Camanga Tukuran Z.D.S</li>
+      <li><strong>Secondary:</strong> TTVHS</li>
+      <li><strong>Tertiary:</strong> ZDSPGC</li>
+    </ul>
+  </section>
+
+  <h2>Skills</h2>
+  <ul>
+    <li>Cooking</li>
+    <li>Drawing</li>
+    <li>Photography</li>
+  </ul>
+
+  <h2>References</h2>
+  <ul>
+    <li>Meliza F. Malayan</li>
+    <li>Camanga Tukuran Z.D.S</li>
+    <li>09535548239</li>
+  </ul>
+</body>
+</html>
